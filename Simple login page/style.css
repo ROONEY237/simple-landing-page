@@ -1,0 +1,103 @@
+*{
+  Padding: 0;
+  Margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', arial;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main{
+  width: 270px;
+  height: 400px;
+}
+
+.main p{
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.main h3{
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.main input{
+  width: 100%;
+  Padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  border: 1.5px solid rgb(204, 204, 204);
+}
+
+.main input:focus{
+  outline: none;
+  border-color: skyblue;
+}
+
+.main a{
+  font-size: 13px;
+  color: rgb(111, 0, 255);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 9px;
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(111, 0, 255);
+  color: white;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button:hover{
+  transform: translateY(-1px);
+} 
+
+.social{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.social div{
+  border: 1px solid rgb(204, 204, 204);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+.social div:hover{
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.signup{
+  float: right;
+}
+
+.signup:hover{
+  text-decoration: underline;
+}
+
+.signup span{
+  font-weight: 600;
+}
+
+
